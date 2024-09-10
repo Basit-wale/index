@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    box-sizing: border-box;
+}
+.header h2{
+    background-color: rgba(0, 0, 0, 0.897);
+    color: aliceblue;
+    font-family: arial narrow;
+    font-weight: lighter;
+    font-size: 30px;
+    width: max-content;
+    height: max-content;
+    padding: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    transform: translateX(6em);
+}
+a{
+    text-decoration: none;
+}
+.linkholder{
+    background-color:#fff;
+    transform: translate(21em, -4.2em);
+    width: 52.9em;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.301);
+    height: 4em;
+    padding: 20px;
+}
+.header a{
+    color: black;
+    font-family: arial narrow;
+    font-size: 23px;
+    text-transform: capitalize;
+    float: left;
+    margin-left: 1.5em;
+}
+.main-content img{
+    height: 27em;
+    width: 60em;
+    margin-left: 14.1em;
+    margin-top: -2em;
+    box-shadow: -2px 2px 7px 2px rgba(0, 0, 0, 0.541);
+}
+#first-paragraph{
+    text-transform: uppercase;
+    font-family: arial narrow;
+    font-size: 26px;
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+    width: max-content;
+    padding: 8px;
+}
+#second-paragraph{
+    font-size: 15px;
+    font-family: cambria;
+    color: #fff;
+    width: max-content;
+    padding: 10px;
+    background-color: rgb(128, 128, 128);
+}
+#third-paragraph{
+    text-transform: uppercase;
+    font-family: arial narrow;
+    font-size: 20px;
+    color:#fff;
+    background-color:rgb(1, 184, 184);
+    width: max-content;
+    padding: 6px;
+    margin-left: 11.35em;
+}
+.paragraphs{
+    transform: translate(11em, -18em);
+    width: max-content;
+}
+#box1{
+    width: max-content;
+    float: left;
+    transform: translate(8em, -5em);
+    margin-left: 2.5em;
+}
+#box1 i{
+    font-size: 60px;
+    background-color:rgb(1, 184, 184);
+    width: max-content;
+    padding: 55px;
+    color: #fff;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+#box1 h2{
+    font-weight: lighter;
+    font-size: 17px;
+    font-family: cambria;
+    text-align: center;
+    margin-top: 10px;
+}
+#box1 p{
+    font-family: cambria;
+    font-size: 15px;
+    text-transform: capitalize;
+    color: rgb(95, 95, 95);
+    margin-top: 4px;
+    text-align: center;
+}
